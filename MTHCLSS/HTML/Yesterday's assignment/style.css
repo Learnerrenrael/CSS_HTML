@@ -1,0 +1,43 @@
+p {font-family: Arial; border:2px solid #1c87c9;}
+a:link{color:red}
+a:visited{color :black}
+a:hover{color : yellow}
+body{margin:auto; background-color:white;background-image: url(img/img2.jpg); background-repeat:no-repeat; background-size: cover;}
+
+
+.a{border: 3px solid black; border-radius: 2px; background-image: url(img/img2.jpg);}
+.a{padding: 1px;background-color:white;margin-left: auto; margin-right: auto;}
+
+/* #x{padding: auto; margin: auto; text-align: center; }*/
+#t{background-image: url(img/img1.jpg); background-repeat:no-repeat; background-size: cover;font-family:'Courier New', Courier, monospace; width: 100%;padding: auto; margin-top:100px; margin-left:auto; margin-right:auto;text-align: center; } 
+
+input[type=text] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid red;
+    border-radius: 4px;
+  }
+
+  input[type = email] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid red;
+    border-radius: 4px;
+  }
+  textarea{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid red;
+    border-radius: 4px;
+  }
+
+  #r{font-family:'Courier New', Courier, monospace; font-weight:bold;width: 100%;padding: auto; margin-top:100px; margin-left:auto; margin-right:auto;text-align: center;}

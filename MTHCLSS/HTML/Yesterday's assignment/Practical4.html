@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Practical 4</title>
+</head>
+<body>
+    <div>
+        <h1> Application Form</h1>
+        <form method = "post">
+            <div> Name <input type = "text"></div>
+            <br><br><br>
+            <div> D.O.B <input type = "date"></div>
+            <br><br><br>
+            <div> Have you read any of these books? <br><br> <input type = "checkbox" id ="Harry" name = "Harry" >
+
+            <label for = "Harry"><strong>Harry Potter </strong></label>
+            <br><br>
+   
+            <input type = "checkbox" id ="lotr" name = "lotr" value = "The Lord of the Rings">
+            <label for = "lotr"> <strong> Lord of the Rings </strong></label>
+            <br><br>
+            <input type = "checkbox" id ="got" name = "got" value = "A Song of Ice and Fire">
+            <label for = "got"><strong>A song of Ice and Fire</strong></label>
+            <br><br>
+            <div> Which is your favourite book among these three? <br><br> <input type = "text"> </div>
+            <br><br><br>
+            <div> Have you seen any of the movies/series based on these books?
+                <br><br>
+                <select name = "bool">
+                    <option> Yes</option>
+                    <option>No</option>
+                </select>
+            </div>
+            <br><br><br>
+            <div>
+                <fieldset>
+                    <legend> Contact Details </legend>
+                    Email: <input type="email" name="email"
+                    placeholder="Please enter email" required="required"/>
+                    <br/><br/><br/>
+                    </fieldset>
+            </div>
+            <div><input type="hidden" name="hiddenfield" value="ABC"/>
+                <input type="submit" value="SUBMIT"/>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="reset" value="RESET"/></div>
+        </div>
+
+        </form>
+
+    </div>
+    
+</body>
+</html>
